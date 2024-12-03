@@ -2,7 +2,7 @@
 
 The Shopify Combine theme[^1] product card settings allow you to "Slide through all product images", creating a slideshow effect when a user wants to see additional product photos without clicking through to the product page. For my own shop, each product has 2 images: one photo of the product, and one photo of the product on its packaging. Visually, I like the look of the first image fading into the 2nd on hover, so I wrote this code to make that happen for this specific theme. Additionally, I've added in the hover effect to show a 2nd image in the mega menu collections list.
 
-![Shopify Liquid Badge](https://img.shields.io/badge/-Shopify%20Liquid-750460)
+![HTML Badge](https://img.shields.io/badge/-HTML-323795) ![Shopify Liquid Badge](https://img.shields.io/badge/-Shopify%20Liquid-750460)
 
 
 ## Table of Contents 
