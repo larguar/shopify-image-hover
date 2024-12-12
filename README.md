@@ -60,7 +60,7 @@ Search for `{%- render 'lazy-image', image: product.featured_media` and duplicat
 {%- render 'lazy-image', image: product.media[1], alt: product.title...
 ```
 
-Search for first `<a href="{{ product_url }}"` and add directly under `class="product-item__image` line:
+Search for `class="product-item__image` and add below:
 ```
 {% if product.media[1] == blank %} solo{% endif %}
 {% if product.type == 'Bundle' and product.metafields.custom.bundle_color != blank %} bg-{{ product.metafields.custom.bundle_color }}{% endif %}
